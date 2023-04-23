@@ -1,0 +1,75 @@
+#navbarBlock
+{
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    /* z-index: 50; */
+    box-shadow: 0 -10px 16px 0 black;
+}
+#navbarBlock article{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 90%;
+    margin: 0 auto;
+}
+.logoBlock a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 3.1px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #673ab7;
+}
+#logoBlock a svg{
+    color: #4caf50;
+    font-weight: 700;
+    font-size: 25px;
+    position: absolute;
+    top: -6px;
+    left: -30px;
+    filter: inherit;
+    border-bottom: 3px solid #4caf50;
+    font-stretch: semi-condensed;
+}
+.menuBlock{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+.menuBlock ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.menuBlock ul a{
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.dashboardMenu{
+    background: #9c27b8;
+    color: #fff !important;
+    border-radius: 3px;
+}
+
+.menuBlock button {
+    border: none;
+    margin: 0 9px;
+    padding: 7px 9px;
+    border-bottom: 2px solid #673ab7;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.menuBlock button svg{
+    color: #673ab7;
+}
+.menuBlock button:hover{
+    background-color: #fff;
+    border-bottom: 2px solid #673ab7;
+}

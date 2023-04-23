@@ -1,0 +1,73 @@
+.home img {
+  height: 85vh;
+  width: 100%;
+  margin-top: -70px;
+}
+.home_content {
+  position: absolute;
+  top: 176px;
+  left: 350px;
+  margin-bottom: 20px;
+}
+.home_content h1 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.home_content > p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.home_content p span {
+  color: grey;
+  font-size: 15px;
+}
+.home_content > div p {
+  color: white;
+}
+.formBox {
+  padding: 0 50px 50px 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5)),url();
+  /* opacity: 0.5; */
+}
+.inputForm {
+  /* position: relative; */
+  display: flex;
+  /* opacity: 1; */
+  /* z-index: 10; */
+}
+.inputForm select {
+  height: 50px;
+  width: 150px;
+}
+.inputForm input {
+  height: 50px;
+  width: 500px;
+}
+.inputForm button {
+  padding: 10px 26px;
+  color: white;
+  background-color: #1dd38f;
+}
+.inputForm button svg {
+  fill: white;
+}
+.linkText {
+  color: #ffffffb3;
+}
+.linkText span {
+  display: inline-block;
+  height: 50px;
+  padding: 15px 20px;
+}
+.linkText span a {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+}
+.underline{
+  text-decoration: underline;
+}

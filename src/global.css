@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* color: #84b; */
+}
+body {
+  background-color: #efefef;
+  font-family: "Merriweather", serif;
+}
+.sidebar {
+  background-color: rgb(242, 243, 248);
+  height: 125vh;
+  width: 27%;
+  z-index: 100;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  box-shadow: 4px 6px 3px 4px;
+  top: 0;
+}
+.close {
+  /* opacity: 0; */
+  visibility: hidden;
+  position: absolute;
+  /* transition: ease all 0.6s;
+  transform: translate(400px);
+  transform: translate(400px, 0px); */
+  animation-name: moveRight;
+  /* animation-iteration-count: 1; */
+  /* animation-timing-function: ease-out; */
+  animation-duration: 1s;
+  
+}
+.open {
+  /* opacity: 1; */
+  animation-name: moveLeft;
+  /* animation-iteration-count: 1; */
+  /* animation-timing-function: ease-out; */
+  animation-duration: 1s;
+  
+}
+@keyframes moveLeft {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 25%;
+  }
+}
+@keyframes moveRight {
+  10% {
+    width: 25%;
+  }
+  90% {
+    width: 0%;
+  }
+}
+.profile {
+  width: 100%;
+}
+.profile-info {
+  position: relative;
+  width: 199px;
+  margin-left: 90px;
+  margin-top: -67px;
+  margin-bottom: 30px;
+}
+.profile-info p {
+  color: grey;
+  font-size: 14px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+}
+.profile-info p span svg {
+  fill: rgb(85, 214, 167);
+}
+.profile-info p:first-child {
+  color: black;
+}
+
+.profile-pic {
+  width: 65px;
+  height: 65px;
+  margin-left: 6px;
+  margin-top: 12px;
+}
+.login_btn {
+  position: absolute;
+  background-color: rgb(85, 214, 167);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 9px;
+  margin-left: 167px;
+  margin-top: -45px;
+  font-weight: 600;
+}
+.myActivity h1 {
+  color: black;
+  padding: 15px 0px;
+}
+.activityBox {
+  display: flex;
+  justify-content: space-between;
+}
+.activityBox div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 5px;
+  width: 85px;
+  padding: 5px 5px;
+}
+.activityBox div span {
+  text-align: center;
+}
+.collapse h1 {
+  width: 100%;
+  background-color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  font-weight: 400;
+}
+.collapse_box {
+  width: 85px;
+  padding: 5px 5px;
+  background-color: white;
+  text-align: center;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.collapse .collasible {
+  color: black;
+  background-color: white;
+}
+.collapse_box svg {
+  fill: black;
+}
+.help_lang p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.sidebar_footer {
+  background-color: gray;
+  padding: 10px;
+}
+.download_app img {
+  height: 40px;
+  width: 100px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.download_app p {
+  color: black;
+}
+.scanner img {
+  position: relative;
+  margin-top: -61px;
+  margin-left: 238px;
+  width: 73px;
+}
